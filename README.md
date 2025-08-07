@@ -1,5 +1,6 @@
 🚀 MyDataTool: Interactive Data Exploration & Preprocessing App
 A modular, user-friendly data analysis tool built with Streamlit and a custom Python package (datatools). This app helps you load, explore, clean, and visualize datasets interactively — ideal for EDA, teaching, or rapid prototyping.
+App link: https://mydatatool.streamlit.app/
 
 ✨ No coding required — just upload your data and go!
 🧠 Every transformation is logged as executable Python code.
