@@ -110,7 +110,7 @@ if st.button(f"Apply: Fill Missing with {missing_method}") and missing_method !=
 # ===========================
 st.subheader("⚠️ Handle Infinite Values")
 st.markdown("""
-Detect and handle `inf` or `-inf` values (common after log transformations or division).
+Detect and handle `inf` or `-inf` values.
 """)
 
 # Initialize outside conditional scope
