@@ -7,3 +7,4 @@ scipy>=1.10
 plotly>=5.13
 statsmodels
 scikit-learn
+openpyxl
