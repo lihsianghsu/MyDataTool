@@ -68,7 +68,7 @@ def safe_dropna(series: pd.Series) -> pd.Series:
 
 
 # =============================================================================
-# 🖥️ STREAMLIT UI UTILITIES
+# STREAMLIT UI UTILITIES
 # =============================================================================
 
 def log_code(code_line: str) -> None:
@@ -135,7 +135,7 @@ def download_code_button(filename: str = "data_processing_script.py") -> None:
 
 
 # =============================================================================
-# 🛠️ MISC HELPERS
+# MISC HELPERS
 # =============================================================================
 
 def print_if_debug(*args, debug: bool = False) -> None:
