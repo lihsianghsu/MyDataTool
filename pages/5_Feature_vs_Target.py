@@ -97,8 +97,3 @@ if categorical_cols:
     st.pyplot(fig)
 else:
     st.info("No categorical features found.")
-
-# ===========================
-# Optional: Log this as analysis (not a transformation)
-# ===========================
-# No log_code() needed — this is exploratory, not transformative
