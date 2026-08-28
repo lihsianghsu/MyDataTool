@@ -42,11 +42,13 @@ def fill_missing(df: pd.DataFrame, method: str = 'mean', custom_value=None) -> p
                 
     elif method == 'ffill':
         # Forward fill
-        df_filled = df_filled.fillna(method='ffill')
+        #df_filled = df_filled.fillna(method='ffill')
+        df_filled = df_filled.ffill()
         
     elif method == 'bfill':
         # Backward fill
-        df_filled = df_filled.fillna(method='bfill')
+        #df_filled = df_filled.fillna(method='bfill')
+        df_filled = df_filled.bfill()
         
     elif method == 'custom':
         # Fill with custom value
