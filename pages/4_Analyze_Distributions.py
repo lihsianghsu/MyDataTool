@@ -27,7 +27,7 @@ if 'df' in st.session_state:
             "Boxplot",
             "Violin Plot",
             "Boxen Plot",
-            "Swarm Plot",
+            #"Swarm Plot",
             "Rug Plot",
             "QQ Plot",
             "Pairwise Distribution"
