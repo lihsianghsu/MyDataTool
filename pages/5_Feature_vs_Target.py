@@ -17,10 +17,12 @@ if 'df' not in st.session_state or st.session_state['df'] is None:
 df = st.session_state['df']
 
 # Select target
+st.subheader("Target Selection")
+
 target = st.selectbox(
-    "Select the target variable (Y)",
-    options=df.columns,
-    index=df.columns.tolist().index('SalePrice') if 'SalePrice' in df.columns else 0
+    "Choose the target variable to predict",
+    options=list(df.columns),
+    help="Select the column that represents the value to predict."
 )
 
 if not validate_column_in_df(df, target, raise_error=False):
