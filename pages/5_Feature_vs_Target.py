@@ -2,6 +2,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
+import seaborn.objects as so
 import numpy as np
 
 # Import utilities
@@ -51,6 +52,7 @@ if numerical_cols:
 
     for i, col in enumerate(numerical_cols):
         sns.scatterplot(ax=axes[i], x=df[col], y=df[target], s=12, alpha=0.7)
+        #so.Plot(data=df, x=df[col], y=df[target], pointsize=12, alpha=O.7)
         axes[i].set_title(f"{target} vs {col}", fontsize=10)
         axes[i].set_xlabel(col, fontsize=9)
         axes[i].set_ylabel(target, fontsize=9)
